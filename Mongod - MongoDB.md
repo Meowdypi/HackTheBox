@@ -1,5 +1,6 @@
 #sql 
-Better enumeration:![image](https://github.com/Meowdypi/Starting-Point---Tier-0/assets/122643833/917fc040-9d38-4a8c-884c-45ef16a1f673)
+
+Better nmap options than what I did (below):![image](https://github.com/Meowdypi/Starting-Point---Tier-0/assets/122643833/917fc040-9d38-4a8c-884c-45ef16a1f673)
 
 ![image](https://github.com/Meowdypi/Starting-Point---Tier-0/assets/122643833/f13a1114-526d-4fb2-96a4-734ccc7c71db)
 
