@@ -1,5 +1,6 @@
 #Redis #server 
 **Redis** - Remote dictionary server
+
 	an open-source advanced NoSQL key-value data store
 	used as a database, cache, and message broker
 	Port 6379
@@ -8,6 +9,7 @@
 		-h - specifies the hostname
 
 $ redis-cli -h 10.0.0.1
+
 	returns -> 10.0.0.1:6379> 
 	10.0.0.1:6379> info 
 		shows info and stats about the Redis server
