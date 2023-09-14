@@ -8,7 +8,7 @@
 		The Transport layer protocol that Microsoft SMB Protocol is most often used with is NetBIOS over TCP/IP (NBT). 
 		This is why, during scans, we will most likely see both protocols with open ports running on the target.
 
-![[Pasted image 20230805104024.png]]
+![Pasted image 20230805104024](https://github.com/Meowdypi/Starting-Point---Tier-0/assets/122643833/0cee8b02-2c64-4b96-bba5-b4faff95f33c)
 
 An SMB-enabled storage on the network is called a *share*
 	can be accessed by anyone with the server address and proper credentials
