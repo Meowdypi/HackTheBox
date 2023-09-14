@@ -18,8 +18,8 @@ An SMB-enabled storage on the network is called a *share*
 -sV - determine service/version info
 -L - use with the smbclient utility to list the available shares
 	$ smbclient -L 10.0.0.1
+![](../../zzImages/Pasted%20image%2020230914165134.png)
 
-![[Pasted image 20230805105503.png]]
 
 Shares returned when using -L
 ![[Pasted image 20230805105748.png]]
