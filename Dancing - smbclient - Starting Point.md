@@ -22,7 +22,7 @@ An SMB-enabled storage on the network is called a *share*
 
 
 Shares returned when using -L
-![[Pasted image 20230805105748.png]]
+![](../../zzImages/Pasted%20image%2020230914165344.png)
 
 $ smbclient \\\\10.0.0.1\\FILE
 	navigate with linux commands (except for cat)
