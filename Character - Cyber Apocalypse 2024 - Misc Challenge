@@ -1,0 +1,16 @@
+	#!/bin/bash
+	# HackTheBox Cyber Apocalypse 2024
+	# Character - Misc Challenge
+
+	# replace 94.237.54.161 & 56307 with relevant IP address & port if necssary
+	exec 3<>/dev/tcp/94.237.54.161/56307
+	cumulative_response = ""
+	for i in {0..104}; do
+		echo $i >&3
+		read -u 3 response
+		response = $(eacho "$response" | tr -d ' ')
+		last_char = $(echo "$response" | awk '{print substr($0, length)}')
+		cumulative_response += $last_char
+	done
+	exec 3<&-
+	echo "Flag = $cumulative_response"
